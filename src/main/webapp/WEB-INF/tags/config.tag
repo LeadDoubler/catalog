@@ -1,0 +1,1 @@
+<%@ attribute name="key" required="true"%><jsp:useBean id="configHandler" scope="page" class="com.asap.web.ConfigHandler" /><jsp:setProperty name="configHandler" property="key" value="${key}" /><jsp:getProperty name="configHandler" property="property" />

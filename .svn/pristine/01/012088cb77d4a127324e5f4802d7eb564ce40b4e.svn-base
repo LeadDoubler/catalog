@@ -1,0 +1,133 @@
+# Validation error messages used by Stripes' built in type converters
+converter.number.invalidNumber=Udfyld venligst med et nummer, uden mellemrum, punktummer, komma eller lign.
+converter.byte.outOfRange=The value ({1}) entered in field {0} was out of the range {2} to {3}
+converter.short.outOfRange=The value ({1}) entered in field {0} was out of the range {2} to {3}
+converter.integer.outOfRange=The value ({1}) entered in field {0} was out of the range {2} to {3}
+converter.float.outOfRange=The value ({1}) entered in field {0} was out of the range {2} to {3}
+converter.enum.notAnEnumeratedValue=The value "{1}" is not a valid value for field {0}
+converter.date.invalidDate=The value ({1}) entered in field {0} must be a valid date
+converter.email.invalidEmail=Addressen ({1}) er ikke en gyldig email addresse
+usernameDoesNotExist = Der findes ingen bruger med det brugernavn
+emailDoesNotExist = Bruger med angivet email findes ikke
+emailIsRegistered = Bruger med angivet email findes i databasen
+stripes.errors.header = <div class="validationErrors">Formularen er mangelfuldt udfyldt</div><ul>
+
+#Quiz localization
+previous = Forrige
+next = N\u00e6ste
+quiz.result = Se resultat
+quiz.question = Sp\u00f8rgsm\u00e5l:
+
+forgotpassreply_beforeEmail = En email med brugernavn og password er sendt til din email:
+forgotpassreply_afterEmail = . Kontroller venligst din indbakke og login med de tilsendte oplysninger.
+
+register = Registrer
+forgotPassword = Glemt brugernavn
+
+back = Back
+new = Create
+region = Region
+
+Passwordfieldmatch = De to kodeord skal v&aelig;re ens
+fillout = Udfyld venligst dette felt
+username.exist = En bruger med dette brugernavn er allerede registreret
+login.userDoesNotExist = En bruger med det brugernavn er ikke registreret i systemet
+login.wrong.password = Kodeordet er ikke korrekt
+
+user.username=Brugernavn
+user.password=Adgangskode
+user.firstName=Fornavn
+user.lastName=Efternavn
+confirmPassword=Bekr\u00e6ft Adgangskode
+insertEmail=Indtast emailaddresse p\u00e5 brugerkonto
+
+firstName = Fornavn
+lastName = Efternavn
+
+user.email.valueNotPresent = Inds\u00e6t venligst en gyldig email
+user.firstName.valueNotPresent = Inds\u00e6t venligst dit fornavn
+user.lastName.valueNotPresent = Inds\u00e6t venligst dit efternavn
+user.phone.valueNotPresent = Inds\u00e6t venligst dit telefonnummer
+user.mobile.valueNotPresent = Inds\u00e6t venligst dit mobilnummer
+
+validation.required.valueNotPresent = Udfyld venligst feltet: {0}
+
+valid.longer.name=Indtats venligst minimum {2} tegn
+valid.smaller.name=Indtast venligst maksimum {2} tegn
+radioEmpty=V\u00e6lg venligst en af knapperne
+checkboxEmpty=Godkend venligst checkboxen
+
+otherLanguage = US
+otherCountry = en
+otherCountryName = English
+
+startpage = Min side
+login = Log ind
+logout = Log ud
+sitemap = Sideoversigt
+search = S\u00f8g
+date = Dato
+contact = Kontakt
+
+forgotpassword = Glemt password?
+register = Registrer
+
+phone = Tlf
+email = Email
+address = Adresse
+zipandcity = Postnummer og by
+
+NoResultLine = You're missing "Resultat" or "Calculate" as a field in the first column in your Spreadsheet.
+
+phonemissing = Udfyld venligst dit telefonnummer her
+emailmissing = Udfyld venligst med din emailadresse her
+basis.price=199 kr.
+month=m&aring;ned
+pro.price=650 kr.
+evaluation.message=30 dages evaluering
+forms=Formularer
+entries=Brugerinput
+upgrade.title=Opdater venligst
+why.pay.left=<h2>Ingen risiko</h2>\nPr\u00f8v vores software idag. Fortryder du sender du os blot en email inden der er g\u00e5et 30 dage og vi tilbagef\u00f8rer dine penge.
+why.pay.right=
+current.plan=Din nuv&aelig;rende pakke
+form.management.title=Form management center
+insert.code.header=Inds&aelig;t p&aring; din side ved at kopiere denne kode:
+front.start.text= <h2>Brug Eregner.dk til at lave</h2><ul>                     <li>Online beregner p\u00e5 2 min</li>                     <li>Evalueringsformular p\u00e5 90 sek.</li>                     <li>Online konkurrence p\u00e5 60 sek.</li>                     <li>Kundegenereringsmaskine p\u00e5 90 sek</li>                     <li>Landingpage p\u00e5 5 min.</li>                                    </ul>                 <h2>Direkte fra Excel</h2>
+front.down.left= <h2>Hvad er det?</h2> En maskine, der laver regneark om til online formularer hvor dine brugere kan lave deres egne beregninger live.             <p>          Alle input gemmes, s\u00e5 du senere kan hente det og sendes i en email til dig umiddelbart efter indtastning.            </p>
+qoutes=<h2>Qoutes</h2>             <p>"<i>Dette v\u00e6rkt\u00f8j g\u00f8r det muligt for os at lave de formularer vores kunder eftersp\u00f8rger p\u00e5 minutter istedet for dage</i>"</p>             <p>"<i>Eregner.dk har gjort det muligt for os at lave en live pris-beregner p\u00e5 vores hjemmeside. Med de automtisk udsendte emails kan vi kontakte de potentielle kunder lige, n\u00e5r de har brugt vores beregner. Vi har aldrig set s\u00e5 h\u00f8j en konverteringsrate.</i>"</p>
+front.down.right=<h2>Hvordan kan du bruge en Eregner?</h2>             <p>Omdan din hjemmeside til en kunde-genererings-maskine ved at lade dine kunder beregne deres egne tilbud. </p><p> Brug de automatisk udsendte emails til at kontakte de potentielle kunder og bliv overrasket over hvor mange, der bliver til kunder.   </p>
+prepaypal.title=Tak for din registrering
+prepaypal.message=Tilmeld dig venligst vores Paypal baserede automatiske abbonnement.<br/><br/>Send os en mail, hvis du vil opsige abbonnementet. Vi har ingen binding.
+app.title=Lav en online beregner, konkurrence eller evaluering p\u00e5 2 min. - direkte fra Excel med Eregner.dk
+app.description=Eregner.dk laver dine Excel regneark om til online beregnere med email og database.
+footer.left=<h4 class="footer_title">Virksomhedsinformation</h4>Eregner.dk er udviklet og markedsf\u00f8rt af <a href="http://www.blobcom.com">Blob Communication ApS</a>.                     <p>   Blob Communication ApS har udviklet software siden 2005 for virksomheder som Syddansk Universitet, Videnskabsministeriet og mange flere.</p>
+footer.mid= <h4>                Partner             </h4>                 Bliv partner og opn\u00e5 specielle fordele                 <br/><br/>                    Kontakt os og h\u00f8r n\u00e6rmere
+footer.right=<h4 class="footer_title">Kontakt</h4> <ul><li>    Phone: (+45) 76 654321<br/> Blob Communication ApS <br />  Bjergg&aring;rdsgyden 91 <br /> Email: <a href="mailto:info@eregner.dk">info@eregner.dk</a></li></ul>
+remove.license.limitations=Fjern reklame
+you.are.on.our.limited.free.account.this.means=Du er p\u00e5 en gratiskonto. Vi inds&aelig;tter derfor reklamer nederst i dine formularer.
+p.if.you.want.these.restrictions.removed.please.update.your.license.p=Opdater din pakke for at fjerne reklamerne
+pro=PRO
+basis=BASIS
+ul.li.max.100.entries.allowed.per.month.li.li.we.add.advertisements.on.your.generated.and.inserted.form.li.ul=<ul><li>Reklamerne inds&aelig;ttes automatisk og kan v&aelig;re for dine konkurrenter.</li></ul>
+company=Virksomhed
+welcomemessage=Hej, jeg hedder Morten. Jeg vil gerne hj&aelig;lpe dig igang.<br/><br/>Indtast dit tlf. nummer her og jeg ringer til dig. Helt gratis naturligvis.
+setup.landingpage=Opret en landing page ud fra en af vores templates
+setup.landingpage.content=v&aelig;lg et design, rediger i vores lette online editor og udgiv.
+setup.calculator=Lav en beregner
+setup.calculator.content=Upload et regneark eller rediger online
+setup.ebook=Udgiv en ebog
+setup.ebook.content=Upload en fil og udgiv den via en specialdesignet landingpage
+subject=Emne
+message=Besked
+recipients=Modtagere
+message.sent=Beskeden er sendt
+from=Afsender
+share=Del
+callmeform.id=650
+please.use.number=Inds&aelig;t venligst et tal
+please.use.number.larger.than=Inds&aelig;t venligst et tal st&oslash;rre end {2}
+please.use.a.number.smaller.than=Inds&aelig;t venligst et tal mindre end {2}
+go.to.calculator = Mere
+clear=Ryd
+sign=Underskrift

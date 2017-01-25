@@ -1,0 +1,71 @@
+# Validation error messages used by Stripes' built in type converters
+converter.number.invalidNumber=Udfyld venligst med et nummer, uden mellemrum, punktummer, komma eller lign.
+converter.byte.outOfRange=The value ({1}) entered in field {0} was out of the range {2} to {3}
+converter.short.outOfRange=The value ({1}) entered in field {0} was out of the range {2} to {3}
+converter.integer.outOfRange=The value ({1}) entered in field {0} was out of the range {2} to {3}
+converter.float.outOfRange=The value ({1}) entered in field {0} was out of the range {2} to {3}
+converter.enum.notAnEnumeratedValue=The value "{1}" is not a valid value for field {0}
+converter.date.invalidDate=The value ({1}) entered in field {0} must be a valid date
+converter.email.invalidEmail=Addressen ({1}) er ikke en gyldig email addresse
+usernameDoesNotExist = Der findes ingen bruger med det brugernavn
+emailDoesNotExist = Bruger med angivet email findes ikke
+emailIsRegistered = Bruger med angivet email findes i databasen
+stripes.errors.header = <div class="validationErrors">Formularen er mangelfuldt udfyldt</div><ul>
+
+forgotpassreply_beforeEmail = An email with user information has been sent to: 
+forgotpassreply_afterEmail = . Please check your inbox and try logging in with the information provided.
+
+back = Back
+new = Create
+region = Region
+
+Passwordfieldmatch = The two password fields must match
+fillout = Please fill out this field
+username.exist = A user with that username is alreade registered
+login.userDoesNotExist = A user with that username is not registered
+login.wrong.password = The password is not correct
+
+user.username=Brugernavn
+user.password=Adgangskode
+user.firstName=Fornavn
+user.lastName=Efternavn
+confirmPassword=Bekr\u00E6ft Adgangskode
+insertEmail=Indtast emailaddresse p\u00E5 brugerkonto
+
+user.email.valueNotPresent = Inds\u00E6t venligst en gyldig email
+user.firstName.valueNotPresent = Inds\u00E6t venligst dit fornavn
+user.lastName.valueNotPresent = Inds\u00E6t venligst dit efternavn
+user.phone.valueNotPresent = Inds\u00E6t venligst dit telefonnummer
+user.mobile.valueNotPresent = Inds\u00E6t venligst dit mobilnummer
+project.text.valueNotPresent = Inds\u00E6t venligst en beskrivelse af projektet
+company.text.valueNotPresent = Inds\u00E6t venligst en beskrivelse af virksomheden
+project.title.valueNotPresent = Inds\u00E6t venligst et navn p\u00E5 virksomheden
+project.website.valueNotPresent = Inds\u00E6t venligst virksomhedens hjemmesideaddresse
+
+validation.required.valueNotPresent = Udfyld venligst feltet: {0}
+
+otherLanguage = US
+otherCountry = en
+otherCountryName = English
+
+startpage = Min side
+login = Log ind
+logout = Log ud
+sitemap = Sideoversigt
+search = S\u00F8g
+shopcart = Indk\u00F8bskurv
+projects = Projekter
+date = Dato
+projecttitle = Projektets titel
+sortby = Sorteret efter
+name = Navn
+buisness = Forretning
+fulllist = Samlet liste
+seminars = Seminarer
+contact = Kontakt
+support = Support
+emptycart = Ingen varer i kurven
+relatedp = Relaterede produkter
+
+forgotpassword = Glemt password?
+register = Opret dig som ny bruger

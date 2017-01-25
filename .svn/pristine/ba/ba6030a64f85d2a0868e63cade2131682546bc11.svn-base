@@ -1,0 +1,6 @@
+smtp=localhost
+mail.from=no-reply@hjerneceller.dk  
+link=http://www.hjerneceller.dk
+sendMails = yes
+mail.forgotpassword.subject = "Password"
+

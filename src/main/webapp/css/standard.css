@@ -1,0 +1,182 @@
+#content form
+{
+border: 1px solid #e3e3e3;
+padding: 10px;
+background: #fbfbfb;
+margin-bottom: 10px;
+}
+
+#content form h4
+{
+margin-top: 0px;
+padding-top: 0px;
+}
+
+.form_left
+{
+display: block;
+float: left;
+width: 130px;
+padding: 4px 0 0 0;
+margin: 0;
+color: #555;
+}
+
+.sub_form_left
+{
+display: block;
+float: left;
+width: 115px;
+padding-left: 10px;
+margin: 0;
+color: #555;
+}
+
+#editForm form div
+{
+clear: both;
+margin: 0;
+padding-top: 10px;
+}
+
+.form_right
+{
+display: block;
+float: left;
+width: 280px;
+padding: 0 0 0 5px;
+margin: 0;
+}
+
+#content form div
+{
+clear: both;
+margin: 0;
+padding-top: 10px;
+padding-bottom: 10px;
+}
+
+.actions {
+  
+}
+.actions a{
+    float:right;
+    width:82px;
+    text-align: center;
+    background: url(actions-link.jpg) 0 0 no-repeat;
+    padding-top: 6px;
+    color: #666;
+    text-decoration: none;
+    opacity: 0.5;
+    font-size: 10px;
+    right:0px;
+    margin-top: -10px;
+    
+}
+.actions a:hover {
+    opacity: 0.8;
+}
+a {
+    color: #666;
+}
+p ul li {
+    list-style-type:circle;    
+}
+.insertedPart{
+    padding:0;
+    margin:0;
+}
+
+
+ul#nav{
+	float: right;
+	list-style: none;
+	text-align: right;
+}
+ul#nav li{
+  	/*padding: 10px 12px 10px 0;
+        border-bottom: 1px #a9523b solid;*/
+        margin-top: -10px;
+}
+ul#nav li a{
+	color: grey !important;
+        margin-bottom: 20px;
+	text-decoration: none;
+
+        float:right;
+        width:82px;
+        text-align: center;
+        background: url(actions-link.jpg) 0 0 no-repeat;
+        padding-top: 6px;
+        color: #666;
+        text-decoration: none;
+        opacity: 0.5;
+        font-size: 10px;
+        right:0px;
+}
+*html ul#nav li a{	
+	display: block;
+}
+ul#nav li a:hover{
+	color: black !important;
+	text-decoration:none;
+}
+ul#nav li ul{
+  	display: none;
+        list-style: none;
+  	/*position: absolute;  	
+  	left: 0px;
+        padding:0 !important;
+        background: gray;
+	filter:alpha(opacity=75);
+	-moz-opacity: 0.75;
+	opacity: 0.75;	
+	padding-left: 5px;
+	text-transform: capitalize;
+	font-size: 1em;
+	font-weight: normal;
+	list-style: none;
+	text-align: left !important;
+	border-left: none !important;*/
+}
+
+ul#nav li ul li{	
+	padding: 30px 0px 0px 0px;
+        
+
+	border-left: none !important;
+}
+
+*html ul#nav li ul li{
+	padding: 10px 0 10px 0;
+
+}
+ul#nav li ul li a{
+        margin-bottom: 0px;
+}
+ul#nav li ul li a:hover{
+	
+}
+ul#nav li > ul{
+	top: auto;
+	left: 156px;
+}
+ul#nav li:hover ul, li.over ul{
+	display: block;
+}
+
+#news #date{
+    float: right;
+}
+
+#news #title{
+    font-weight: bold;
+}
+
+#news #description{
+    margin-top: 14px;
+}
+
+#news #link{
+    float: right;
+}

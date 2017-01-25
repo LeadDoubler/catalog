@@ -1,0 +1,105 @@
+/* The basicTickerTape styles are required */
+
+div.basicTickerTape {
+	position: relative;
+	overflow: hidden;
+}
+
+	div.basicTickerTape ul {
+		position: absolute;
+		top: 0;
+		left: 0;
+		margin: 0;
+	}
+
+/* The basicTickerTape styles are required */
+
+div.skeletonTickerTape {
+	border: 1px solid red;
+	width: 300px;
+	height: 175px;
+}
+
+div.skeletonTickerTape ul li {
+		margin: 10px 5px 0 5px;
+		position:relative;
+		border: 1px solid #fff;
+}
+
+div.styledTickerTape {	
+	width: 285px;
+	height: 108px;
+
+}
+
+	div.styledTickerTape ul {
+		padding: 0;
+		list-style: none;
+	}
+
+		div.styledTickerTape ul li {
+			width: 256px;
+			margin: 5px 10px 0 10px;
+			height: 94px;			
+			padding: 7px 7px 0 7px;
+			border: 1px solid #fff;
+		}
+
+			div.styledTickerTape ul li p {
+				margin: 0;
+				padding: 7px 0 0;
+				font-size: 1em;
+				color:#ccc;				
+			}
+			div.styledTickerTape ul li p.tickerLink {
+				padding: 0px;
+			
+			}
+			
+	div.styledTickerTape h1 {
+		margin:0 0 7px;
+		font-size: 1.7em;
+		color: #fff;
+		font-family: "Trebuchet MS", Arial, sans-serif;
+		font-weight:normal;
+		border-bottom: 1px #ccc solid;
+	}
+	div.styledTickerTape a {
+		color: #fff;
+		font-weight:normal;
+		font-size: 1.1em;
+	}
+	
+	div.styledTickerTape img {
+		float: right;
+		padding: 0 0 0 4px;
+	}
+
+div.horizontalTickerTape {
+	font-family: Verdana, sans-serif;	
+	width: 600px;
+	border: 1px solid #990000;
+	height: 35px;
+}
+
+	div.horizontalTickerTape ul {
+		padding: 0;
+		list-style: none;
+		width: 500000px;
+	}
+
+	div.horizontalTickerTape li {
+		float: left;
+		border: 1px solid blue;
+		margin: 5px;
+		padding: 5px;
+	}
+
+	div.horizontalTickerTape p {
+		display: none;
+		margin: 0;
+	}
+
+	div.horizontalTickerTape p.tickerLink {
+		display: block;
+	}

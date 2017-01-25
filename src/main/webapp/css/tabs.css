@@ -1,0 +1,69 @@
+.projectHidden{
+    visibility: hidden;
+    position: absolute;
+} 
+#content-main {
+   width: 450px;
+   margin: 18px 0 18px 18px;
+   background: url(../images/tabs-bg.png) repeat-y;
+}
+#content-main div {
+   min-height: 175px;
+   background: url(../images/tabs-foot.png) left bottom no-repeat;
+}
+* html #content-main div {
+   height: 375px;
+}
+#content-main div div {
+   min-height: 1%;
+   margin: 5px 25px;
+   padding: 5px 5px 8px;
+   background: url(../images/tabs-sep.png) left bottom repeat-x;
+}
+#content-main div.last {
+   background: none;
+   border: none;
+}
+* html #content-main div div {
+   height: auto;
+}
+#content-main h3 {
+   height: 0;
+   overflow: hidden;
+   margin: 0;
+   padding: 0;
+}
+#content-main h4 {
+   color: #6F0F0C;
+   font-weight: bold;
+    font-size:10px;
+}
+#content-main ul {
+   height: 45px;
+   list-style: none;
+   background: url(../images/tabs-nav.png) no-repeat;
+    margin:0;
+}
+#content-main li {
+   float: left;
+   width: 140px;
+   height: 45px;
+   margin: 0 9px 0 0;
+}
+#content-main li.last {
+   margin: 0;     
+}
+#content-main li.current {
+   background: url(../images/tabs-current.png) no-repeat;
+}
+#content-main li a {
+   display: block;
+   height: 35px;
+   line-height: 35px;
+   padding: 0 0 0 25px;
+   color: #FFFFFF;
+   font-size: 1.2em;
+}
+#content-main li a:hover {
+   color: #6F0F0C;
+}
